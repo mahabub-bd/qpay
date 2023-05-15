@@ -14,7 +14,7 @@ function App() {
           <Image
             srcSet={`${slides[currentIndex].mobileurl} 400w, ${slides[currentIndex].url} 1000w`}
             alt={`carouselimage${currentIndex}`}
-            class="w-full h-full "
+            className="w-full h-full "
             src={slides[currentIndex].url}
             priority
           />
