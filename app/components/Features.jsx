@@ -47,7 +47,7 @@ const Features = () => {
                     </div>
                   </div>
                   <div className="flex flex-col justify-between items-center ">
-                    <Link href="../features">
+                    <Link href={`/features${item.link}`}>
                       <p className="main-item font-semibold text-justify h-[150px] p-3 text-[14px] leading-[18px] text-gray-100 ">
                         {item.des}
                       </p>
