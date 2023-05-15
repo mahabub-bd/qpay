@@ -4,87 +4,85 @@ import close from "./images/close.svg";
 
 import logo from "./images/logo_dark.png";
 
-import logodark from "./images/logo_white.png";
+import logodark from "./images/logo_white.webp";
 
-import mobile from "./images/mobile.png";
+import agrani from "./images/banks/agrani.webp";
 
-import agrani from "./images/banks/agrani.jpeg";
+import bankasia from "./images/banks/bankasia.webp";
 
-import bankasia from "./images/banks/bankasia.jpg";
+import combank from "./images/banks/combank.webp";
 
-import combank from "./images/banks/combank.jpg";
+import bdbl from "./images/banks/bdbl.webp";
 
-import bdbl from "./images/banks/bdbl.png";
+import basic from "./images/banks/basic.webp";
 
-import basic from "./images/banks/basic.png";
+import alfalah from "./images/banks/bankalfalah.webp";
 
-import alfalah from "./images/banks/bankalfalah.png";
+import bcbl from "./images/banks/bcblbd_logo.webp";
 
-import bcbl from "./images/banks/bcblbd_logo.png";
+import bkb from "./images/banks/bkb.webp";
 
-import bkb from "./images/banks/bkb.png";
+import bgcb from "./images/banks/bgcb.webp";
 
-import bgcb from "./images/banks/bgcb.png";
+import citizens from "./images/banks/citizens.webp";
 
-import citizens from "./images/banks/citizens.png";
+import exim from "./images/banks/exim.webp";
 
-import exim from "./images/banks/exim.jpg";
+import fsibl from "./images/banks/fsibl.webp";
 
-import fsibl from "./images/banks/fsibl.png";
+import gib from "./images/banks/gib.webp";
 
-import gib from "./images/banks/gib.jpg";
+import ific from "./images/banks/ific.webp";
 
-import ific from "./images/banks/ific.png";
-
-import janata from "./images/banks/janata.png";
+import janata from "./images/banks/janata.webp";
 
 import icb from "./images/banks/icb.webp";
 
-import jamuna from "./images/banks/jbl_logo_new.jpg";
+import jamuna from "./images/banks/jbl_logo_new.webp";
 
-import mdb from "./images/banks/mdbl.png";
+import mdb from "./images/banks/mdbl.webp";
 
-import mgbl from "./images/banks/mgbl.png";
+import mgbl from "./images/banks/mgbl.webp";
 
-import mbl from "./images/banks/mbl_logo.jpg";
+import mbl from "./images/banks/mbl_logo.webp";
 
-import mmbl from "./images/banks/mmbl.png";
+import mmbl from "./images/banks/mmbl.webp";
 
-import nbl from "./images/banks/nbl.png";
+import nbl from "./images/banks/nbl.webp";
 
-import ncc from "./images/banks/ncc.png";
+import ncc from "./images/banks/ncc.webp";
 
-import nrbc from "./images/banks/nrbc.png";
+import nrbc from "./images/banks/nrbc.webp";
 
-import rbl from "./images/banks/rbl.png";
+import rbl from "./images/banks/rbl.webp";
 
-import sjibl from "./images/banks/sjibl.png";
+import sjibl from "./images/banks/sjibl.webp";
 
-import smbl from "./images/banks/SMBL.png";
+import smbl from "./images/banks/SMBL.webp";
 
-import sonali from "./images/banks/sonali.png";
+import sonali from "./images/banks/sonali.webp";
 
-import sibl from "./images/banks/sibl-logo.png";
+import sibl from "./images/banks/sibl-logo.webp";
 
-import sbac from "./images/banks/sbac.png";
+import sbac from "./images/banks/sbac.webp";
 
-import sbl from "./images/banks/sbl.png";
+import sbl from "./images/banks/sbl.webp";
 
-import tbl from "./images/banks/tbl.png";
+import tbl from "./images/banks/tbl.webp";
 
-import union from "./images/banks/union.jpg";
+import union from "./images/banks/union.webp";
 
-import uttara from "./images/banks/uttara.png";
+import uttara from "./images/banks/uttara.webp";
 
 import woori from "./images/banks/woori.gif";
 
-import paymentapp from "./images/payment.png";
+import paymentapp from "./images/payment.webp";
 
 import appstoreicon from "./images/appstoreicon.svg";
 
-import qrappstore from "./images/ios.png";
+import qrappstore from "./images/ios.webp";
 
-import qrplaystore from "./images/android.png";
+import qrplaystore from "./images/android.webp";
 
 import appstore from "./images/appstore.svg";
 
@@ -92,27 +90,27 @@ import playstore from "./images/playstore.svg";
 
 import banglaqr from "./images/qr.svg";
 
-import mobilerecharge from "./images/mobile recharge.png";
+import mobilerecharge from "./images/mobile recharge.webp";
 
-import atmfrom from "./images/cash by code.png";
+import atmfrom from "./images/cash by code.webp";
 
-import utilitybill from "./images/bill payment.png";
+import utilitybill from "./images/bill payment.webp";
 
-import credicard from "./images/credit card bill payment.png";
+import credicard from "./images/credit card bill payment.webp";
 
-import fundtransfer from "./images/fund transfer.png";
+import fundtransfer from "./images/fund transfer.webp";
 
-import multiplecard from "./images/multiplecard.png";
+import multiplecard from "./images/multiplecard.webp";
 
-import cvv from "./images/cvv.png";
+import cvv from "./images/cvv.webp";
 
-import mfs from "./images/wallet transfer.png";
+import mfs from "./images/wallet transfer.webp";
 
-import carousel1 from "./images/carousel1.png";
-import carousel2 from "./images/carousel2.png";
-import carousel3 from "./images/carousel3.png";
+import carousel1 from "./images/carousel1.webp";
+import carousel2 from "./images/carousel2.webp";
+import carousel3 from "./images/carousel3.webp";
 
-import carousel4 from "./images/carousel4.png";
+import carousel4 from "./images/carousel4.webp";
 
 import carouselmobile1 from "./images/carousel1mobile.png";
 import carouselmobile2 from "./images/carousel2mobile.png";
@@ -131,7 +129,6 @@ export {
   close,
   logo,
   logodark,
-  mobile,
   agrani,
   bankasia,
   combank,
