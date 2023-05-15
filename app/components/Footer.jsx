@@ -2,15 +2,10 @@
 import { logodark } from "@/public";
 import Image from "next/image";
 import Link from "next/link";
-import { FaArrowCircleUp } from "react-icons/fa";
 import { footerLinks, socialMedia } from "../constants";
 import styles from "../styles/style";
 
-import useScrollTop from "../hooks/useScrollTop";
-
 const Footer = () => {
-  const { scrollTop, showScroll } = useScrollTop();
-
   return (
     <>
       <section
@@ -85,12 +80,6 @@ const Footer = () => {
               </Link>
             ))}
           </div>
-        </div>
-        <div className="absulate right-20 text-dimWhite">
-          <FaArrowCircleUp
-            onClick={scrollTop}
-            style={{ height: 40, display: showScroll ? "flex" : "none" }}
-          />
         </div>
       </section>
     </>
