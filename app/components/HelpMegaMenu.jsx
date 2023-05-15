@@ -1,5 +1,5 @@
-import { helpMenuLink } from "../constants";
 import Link from "next/link";
+import { helpMenuLink } from "../constants";
 
 const HelpMegaMenu = () => {
   return (
@@ -11,7 +11,7 @@ const HelpMegaMenu = () => {
           {helpMenuLink.map((item) => (
             <Link
               key={item.title}
-              href={item.link}
+              href={`/help${item.link}`}
               className="hover:text-qpayone"
             >
               <h4>{item.title}</h4>

@@ -106,30 +106,30 @@ export const navLinks = [
 export const helpMenuLink = [
   {
     title: "Frequently Asked Questions",
-    link: "help/faq",
+    link: "/faq",
   },
 
   {
     title: "Charge and Limits",
-    link: "help/charge",
+    link: "/charge",
   },
 
   {
     title: "Charge Calculator",
-    link: "help/charge",
+    link: "/chargecalculator",
   },
 
   {
     title: "Registration Process",
-    link: "help/reg",
+    link: "/reg",
   },
   {
     title: "Security Tips",
-    link: "help/security",
+    link: "/security",
   },
   {
     title: "Contact us",
-    link: "help/contact",
+    link: "/contact",
   },
 ];
 

@@ -1,5 +1,5 @@
-const features = () => {
+const utility = () => {
   return <div>Features Page</div>;
 };
 
-export default features;
+export default utility;

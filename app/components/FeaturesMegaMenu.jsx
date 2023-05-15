@@ -1,6 +1,6 @@
-import { featuresList } from "../constants";
 import Image from "next/image";
 import Link from "next/link";
+import { featuresList } from "../constants";
 
 const FeaturesMegaMenu = () => {
   return (
@@ -12,7 +12,7 @@ const FeaturesMegaMenu = () => {
           {featuresList.map((item) => (
             <div key={item.id} className="flex p-1 mt-6">
               <Link
-                href="../features/card"
+                href={`/features${item.link}`}
                 className="flex justify-center items-center flex-col hover:scale-110 text-black hover:text-qpayone"
               >
                 <Image
