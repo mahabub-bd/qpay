@@ -9,13 +9,14 @@ const HelpMegaMenu = () => {
       >
         <div className="container m-auto w-full flex flex-wrap justify-between ">
           {helpMenuLink.map((item) => (
-            <Link
-              key={item.title}
-              href={`/help${item.link}`}
-              className="hover:text-qpayone"
-            >
-              <h4>{item.title}</h4>
-            </Link>
+            <div key={item.title} className="text-black">
+              <Link
+                href={`/help${item.link}`}
+                className="hover:text-qpayone active:text-black text-black"
+              >
+                <h4>{item.title}</h4>
+              </Link>
+            </div>
           ))}
         </div>
       </div>
