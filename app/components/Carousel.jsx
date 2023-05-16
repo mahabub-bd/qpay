@@ -8,18 +8,24 @@ function App() {
   const { currentIndex, prevSlide, nextSlide } = useCarousel();
 
   return (
-    <div className="max-w-[1280px] w-[100%]  m-auto relative group transition-all">
-      <div className="">
-        <picture>
-          <Image
-            srcSet={`${slides[currentIndex].mobileurl} 400w, ${slides[currentIndex].url} 1000w`}
-            alt={`carouselimage${currentIndex}`}
-            className="w-full h-full "
-            src={slides[currentIndex].url}
-            priority
-          />
-        </picture>
-      </div>
+    <div className="m-auto relative group transition-all">
+      {/* <!-- Banner for large devices --> */}
+      <Image
+        class="hidden md:block object-cover  w-full h-full   "
+        alt={`carouselimage${currentIndex}`}
+        data-src={slides[currentIndex].url}
+        src={slides[currentIndex].url}
+        priority
+      />
+
+      {/* <!-- Banner for mobile devices --> */}
+      <Image
+        class="lazy block md:hidden object-cover  aspect-2x1  w-full h-full"
+        alt="Home"
+        data-src={slides[currentIndex].mobileurl}
+        src={slides[currentIndex].mobileurl}
+        priority
+      />
 
       {/* Left Arrow */}
       <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
