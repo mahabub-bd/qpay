@@ -1,6 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
 import { helpMenuLink } from "../constants";
-
 const HelpMegaMenu = () => {
   return (
     <>
@@ -9,12 +9,17 @@ const HelpMegaMenu = () => {
       >
         <div className="container m-auto w-full flex flex-wrap justify-between items-center ">
           {helpMenuLink.map((item) => (
-            <div key={item.title} className="text-black">
+            <div key={item.id} className="flex p-1 mt-6">
               <Link
                 href={`/help${item.link}`}
-                className="hover:text-qpayone active:text-black text-black mt-10"
+                className="flex justify-center items-center flex-col hover:scale-110 text-black hover:text-qpayone"
               >
-                <h4>{item.title}</h4>
+                <Image
+                  src={item.img}
+                  alt={item.title}
+                  className="w-[40px]  h-[40px] object-contain"
+                />
+                <h4 className="mt-3 text-[12px]">{item.title}</h4>
               </Link>
             </div>
           ))}

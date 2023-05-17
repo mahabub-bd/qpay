@@ -20,7 +20,7 @@ const FeaturesMegaMenu = () => {
                   alt={item.title}
                   className="w-[30px]  h-[30px] object-contain"
                 />
-                <h1 className="mt-3 text-[12px]"> {item.title}</h1>
+                <h4 className="mt-3 text-[12px]"> {item.title}</h4>
               </Link>
             </div>
           ))}

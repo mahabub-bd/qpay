@@ -16,12 +16,14 @@ import {
   carouselmobile1,
   carouselmobile2,
   carouselmobile3,
+  chargecalculator,
   citizens,
   combank,
   credicard,
   cvv,
   exim,
   facebook,
+  faq,
   fsibl,
   fundtransfer,
   gib,
@@ -30,6 +32,7 @@ import {
   instagram,
   jamuna,
   janata,
+  limit,
   linkedin,
   mbl,
   mdb,
@@ -42,6 +45,7 @@ import {
   ncc,
   nrbc,
   rbl,
+  reg,
   sbac,
   sbl,
   sibl,
@@ -100,36 +104,6 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
     class: "nothoverable",
-  },
-];
-
-export const helpMenuLink = [
-  {
-    title: "Frequently Asked Questions",
-    link: "/faq",
-  },
-
-  {
-    title: "Charge and Limits",
-    link: "/charge",
-  },
-
-  {
-    title: "Charge Calculator",
-    link: "/chargecalculator",
-  },
-
-  {
-    title: "Registration Process",
-    link: "/reg",
-  },
-  {
-    title: "Security Tips",
-    link: "/security",
-  },
-  {
-    title: "Contact us",
-    link: "/contact",
   },
 ];
 
@@ -341,6 +315,32 @@ export const featuresList = [
     img: banglaqr,
     link: "/qr",
     des: "allow customers to perform transactions using their mobile phones or other devices, without the need for a physical card or ATM. These services may include options such as Cash By Code which allows users to generate a unique code on their mobile phone that can be used to withdraw cash from an ATM without a card.",
+  },
+];
+export const helpMenuLink = [
+  { id: 1, img: faq, title: "Frequently Asked Questions", link: "/faq" },
+
+  { id: 2, img: limit, title: "Charge and Limits", link: "/limit" },
+
+  {
+    id: 3,
+    img: chargecalculator,
+    title: "Charge Calculator",
+    link: "/chargecalculator",
+  },
+
+  { id: 4, img: reg, title: "Registration Process", link: "/reg" },
+  {
+    id: 5,
+    img: reg,
+    title: "Security Tips",
+    link: "/security",
+  },
+  {
+    id: 6,
+    img: reg,
+    title: "Contact us",
+    link: "/contact",
   },
 ];
 

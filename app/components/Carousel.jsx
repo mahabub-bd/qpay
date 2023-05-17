@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="m-auto relative group transition-all">
       <Image
-        class="hidden md:block object-cover  w-full h-full"
+        className="hidden md:block object-cover  w-full h-full"
         alt={`carouselimage${currentIndex}`}
         data-src={slides[currentIndex].url}
         src={slides[currentIndex].url}
@@ -18,7 +18,7 @@ function App() {
       />
 
       <Image
-        class=" block md:hidden object-cover  aspect-2x1  w-full h-full"
+        className=" block md:hidden object-cover  aspect-2x1  w-full h-full"
         alt={`carouselimage${currentIndex}`}
         data-src={slides[currentIndex].mobileurl}
         src={slides[currentIndex].mobileurl}

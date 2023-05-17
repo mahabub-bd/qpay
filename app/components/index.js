@@ -20,9 +20,14 @@ import CarouselImage from "./Carousel";
 
 import Footer from "./Footer";
 
+import VideoComponent from "./VideoComponent";
+
+import Breadcrumb from './Breadcrumb'
+
 export {
   AtmBooth,
   Banks,
+  Breadcrumb,
   BoothComponent,
   Navbar,
   About,
@@ -32,4 +37,5 @@ export {
   Footer,
   FeaturesMegaMenu,
   HelpMegaMenu,
+  VideoComponent,
 };

@@ -2,7 +2,7 @@ import menu from "./images/menu.svg";
 
 import close from "./images/close.svg";
 
-import logo from "./images/logo_dark.png";
+import logo from "./images/logo_dark.webp";
 
 import logodark from "./images/logo_white.webp";
 
@@ -124,7 +124,18 @@ import linkedin from "./images/linkedin.svg";
 
 import instagram from "./images/instagram.svg";
 
+import faq from "./images/faq 1.webp";
+
+import chargecalculator from "./images/charge calculator.webp";
+
+import limit from "./images/limit & charges.webp";
+
+import reg from "./images/registration process 1.webp";
+
 export {
+  chargecalculator,
+  limit,
+  reg,
   menu,
   close,
   logo,
@@ -190,4 +201,5 @@ export {
   twitter,
   instagram,
   linkedin,
+  faq,
 };
