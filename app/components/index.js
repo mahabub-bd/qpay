@@ -22,12 +22,12 @@ import Footer from "./Footer";
 
 import VideoComponent from "./VideoComponent";
 
-import Breadcrumb from './Breadcrumb'
+import Bread from './Bread'
 
 export {
   AtmBooth,
   Banks,
-  Breadcrumb,
+  Bread,
   BoothComponent,
   Navbar,
   About,
