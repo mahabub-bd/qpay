@@ -112,9 +112,10 @@ import carousel3 from "./images/carousel3.webp";
 
 import carousel4 from "./images/carousel4.webp";
 
-import carouselmobile1 from "./images/carousel1mobile.png";
-import carouselmobile2 from "./images/carousel2mobile.png";
-import carouselmobile3 from "./images/carousel3mobile.png";
+import carouselmobile1 from "./images/carousel1mobile.webp";
+import carouselmobile2 from "./images/carousel2mobile.webp";
+import carouselmobile3 from "./images/carousel3mobile.webp";
+import carouselmobile4 from "./images/carousel4mobile.webp";
 
 import facebook from "./images/facebook.svg";
 
@@ -197,6 +198,7 @@ export {
   carouselmobile1,
   carouselmobile2,
   carouselmobile3,
+  carouselmobile4,
   facebook,
   twitter,
   instagram,

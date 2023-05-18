@@ -16,6 +16,7 @@ import {
   carouselmobile1,
   carouselmobile2,
   carouselmobile3,
+  carouselmobile4,
   chargecalculator,
   citizens,
   combank,
@@ -364,7 +365,7 @@ export const slides = [
   {
     id: 4,
     url: carousel4,
-    mobileurl: carouselmobile3,
+    mobileurl: carouselmobile4,
   },
 ];
 
