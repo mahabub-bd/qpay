@@ -145,9 +145,9 @@
   z-index: 100;
 
   @media only screen and (min-width: 1700px) {
-    width: 45%;
-    transform: translate(0%, -60%);
-    left: 40%;
+    width: 40%;
+    transform: translate(0%, -70%);
+    left: 30%;
   }
 }
 

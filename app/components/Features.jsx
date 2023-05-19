@@ -7,6 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { BsChevronDown } from "react-icons/bs";
+
 const Features = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 

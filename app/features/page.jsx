@@ -1,4 +1,4 @@
-import { Bread } from "../../components";
+import { Bread } from "../components";
 import styles from "@/app/styles/style";
 
 const utility = () => {

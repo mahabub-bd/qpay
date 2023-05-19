@@ -15,13 +15,12 @@ const Navbar = () => {
   const { scrolled } = useScroll();
 
   return (
-    <div className={`relative mx-auto bg-white`} id="home">
+    <div
+      className={`relative mx-auto py-3 bg-white ${scrolled && "scrolled"}`}
+      id="home"
+    >
       <nav
-        className={`"  ${
-          styles.paddingX
-        }  mx-auto flex py-4  xl:justify-around justify-between items-center" ${
-          scrolled && "scrolled"
-        } `}
+        className={`"  ${styles.boxWidth}  mx-auto flex md:px-4 xl:px-0   justify-between items-center"  `}
       >
         <Link href="/">
           <Image
