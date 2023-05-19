@@ -2,6 +2,8 @@ import Image from "next/image";
 import { banks } from "../constants";
 import styles from "../styles/style";
 
+
+
 const Banks = () => {
   return (
     <div className="bank-bg">

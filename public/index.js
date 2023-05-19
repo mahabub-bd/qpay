@@ -109,7 +109,6 @@ import mfs from "./images/wallet transfer.webp";
 import carousel1 from "./images/carousel1.webp";
 import carousel2 from "./images/carousel2.webp";
 import carousel3 from "./images/carousel3.webp";
-
 import carousel4 from "./images/carousel4.webp";
 
 import carouselmobile1 from "./images/carousel1mobile.webp";
@@ -133,8 +132,14 @@ import limit from "./images/limit & charges.webp";
 
 import reg from "./images/registration process 1.webp";
 
+import security from './images/security tips.webp';
+
+import contact from './images/contact us.webp'
+
 export {
   chargecalculator,
+  contact,
+  security,
   limit,
   reg,
   menu,
