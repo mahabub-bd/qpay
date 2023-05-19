@@ -24,6 +24,20 @@ import VideoComponent from "./VideoComponent";
 
 import Bread from './Bread'
 
+import FundtransferLimit from "./fees/FundtransferLimit";
+
+import CreditCardLimit from "./fees/CreditCardLimit";
+
+import BkashLimit from "./fees/BkashLimit";
+
+import CashByCodeLimit from "./fees/CashByCodeLimit";
+
+import DthLimit from "./fees/DthLimit";
+
+import QrLimit from "./fees/QrLimit";
+
+import MobileRecharge from "./fees/MobileRecharge";
+
 export {
   AtmBooth,
   Banks,
@@ -38,4 +52,11 @@ export {
   FeaturesMegaMenu,
   HelpMegaMenu,
   VideoComponent,
+  FundtransferLimit,
+  CreditCardLimit,
+  BkashLimit,
+  CashByCodeLimit,
+  DthLimit,
+  QrLimit,
+  MobileRecharge
 };

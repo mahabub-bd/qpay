@@ -20,7 +20,7 @@ const Navbar = () => {
       id="home"
     >
       <nav
-        className={`"  ${styles.boxWidth}  mx-auto flex md:px-4 xl:px-0   justify-between items-center"  `}
+        className={`"  ${styles.boxWidth}  mx-auto flex   justify-between items-center"  `}
       >
         <Link href="/">
           <Image
@@ -64,8 +64,8 @@ const Navbar = () => {
               toggle ? "flex" : "hidden"
             } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[160px] rounded-xl sidebar z-50 `}
           >
-            <ul className=" list-none flex justify-end flex-col flex-center items-center flex-1">
-              {navLinks.map((nav, index) => (
+            <ul className=" list-none flex justify-end px-2 flex-col flex-center items-center flex-1">
+              {navLinks.map((nav, ) => (
                 <li
                   key={nav.id}
                   className={`font-poppins font-normal cursor-pointer text-[16px] ${
