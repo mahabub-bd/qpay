@@ -1,7 +1,10 @@
 'use client'
 
 import React, { useState } from "react";
-import { FundTransferCalculate } from "../../components";
+
+
+
+
 
 const options = [
   { value: "fundtransfer", label: "Fund Transfer" },
@@ -15,7 +18,7 @@ const options = [
 ];
 
 const componentMap = {
-  fundtransfer: <FundTransferCalculate />,
+  fundtransfer: <h5>Credit Card Bill Payment</h5>,
   creditcardbill: <h5>Credit Card Bill Payment</h5>,
   cashbycode: <h5>Cash By Code</h5>,
   bkashcashin: <h5>Bkash Cash In</h5>,

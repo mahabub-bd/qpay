@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-const FundTransferCalculate = () => {
+const FTCalculate = () => {
   const [amount, setAmount] = useState("");
   const [fee, setFee] = useState(0);
 
@@ -41,4 +41,4 @@ const FundTransferCalculate = () => {
   );
 };
 
-export default FundTransferCalculate;
+export default FTCalculate;

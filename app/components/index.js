@@ -40,14 +40,14 @@ import MobileRecharge from "./fees/MobileRecharge";
 
 import FeeCalculator from "./chargecalculator/FeeCalculate";
 
-import FundTransferCalculate from "./chargecalculator/FTalculate";
+import FTCalculate from "./chargecalculator/FTCalculate";
 
 
 
 export {
   AtmBooth,
   FeeCalculator,
-  FundTransferCalculate,
+  FTCalculate,
   Banks,
   Bread,
   BoothComponent,
@@ -67,6 +67,4 @@ export {
   DthLimit,
   QrLimit,
   MobileRecharge,
- 
-
 };
