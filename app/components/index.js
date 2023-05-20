@@ -38,9 +38,9 @@ import QrLimit from "./fees/QrLimit";
 
 import MobileRecharge from "./fees/MobileRecharge";
 
-import FeeCalculator from "./chargecalculator/FeeCalculate";
-
 import FTCalculate from "./chargecalculator/FTCalculate";
+
+import FeeCalculator from "./chargecalculator/FeeCalculate";
 
 
 

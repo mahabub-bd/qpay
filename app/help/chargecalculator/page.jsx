@@ -7,8 +7,6 @@ const chargecalculator = () => {
       <Bread mainpage="Help" link="/help" page="Charges Calculator" />
       <h1 className={`${styles.heading3} my-5`}>Calculate Qpay Charges</h1>
       <FeeCalculator/>
-
-      
     </div>
   );
 };
