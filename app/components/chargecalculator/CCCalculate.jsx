@@ -1,6 +1,6 @@
 "use client";
 
-import useCarousel from "@/app/hooks/useCarousel";
+
 import useCreditcard from "@/app/hooks/useCreditcard";
 
 const CCCalculate = () => {
@@ -27,6 +27,8 @@ const CCCalculate = () => {
         </button>
       </form>
       <p>Fee : {fee}</p>
+
+      <p>Charge for {amount} BDT Credit Card Bill  {fee} BDT</p>
     </div>
   );
 };
