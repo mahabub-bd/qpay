@@ -1,7 +1,8 @@
-"use client";
+'use client'
+import  FTCalculate  from "./FTCalculate";
 
 import React, { useState } from "react";
-import  FTCalculate  from "./FTCalculate";
+
 
 const options = [
   { value: "fundtransfer", label: "Fund Transfer" },
@@ -13,6 +14,17 @@ const options = [
   { value: "utility", label: "Utility Bill Payment" },
   { value: "dthbill", label: "Akash DTH Bill" },
 ];
+
+const componentMap = {
+  fundtransfer: <FTCalculate />,
+  creditcardbill: <h5>Credit Card Bill Payment</h5>,
+  cashbycode: <h5>Cash By Code</h5>,
+  bkashcashin: <h5>Bkash Cash In</h5>,
+  mobilerecharge: <h5>Mobile Recharge</h5>,
+  qrpayment: <h5>Bangla QR Payment</h5>,
+  utility: <h5>Utility Bill Payment</h5>,
+  dthbill: <h5>Akash DTH Bill</h5>,
+};
 
 function FeeCalculator() {
   const [selectedOption, setSelectedOption] = useState("");
@@ -41,14 +53,7 @@ function FeeCalculator() {
         </label>
       </form>
 
-      {selectedOption === "fundtransfer" && <FTCalculate />}
-      {selectedOption === "creditcardbill" && <h5>Credit Card Bill Payment</h5>}
-      {selectedOption === "cashbycode" && <h5>Cash By Code</h5>}
-      {selectedOption === "bkashcashin" && <h5>Bkash Cash In</h5>}
-      {selectedOption === "mobilerecharge" && <h5>Mobile Recharge</h5>}
-      {selectedOption === "qrpayment" && <h5>Bangla QR Payment</h5>}
-      {selectedOption === "utility" && <h5>Utility Bill Payment</h5>}
-      {selectedOption === "dthbill" && <h5>Akash DTH Bill</h5>}
+      {selectedOption && componentMap[selectedOption]}
     </div>
   );
 }
