@@ -6,7 +6,7 @@ const charge = () => {
   return (
     <div>
       <Bread mainpage="Help" link="/help" page="Charges & Limit" />
-      <h1 className={`${styles.heading3} my-5`}>Charges & Limit</h1>
+      <h1 className={`${styles.heading3} my-5`}>Qpay Fess & Limit </h1>
       <table className="table-auto mx-auto border m-4 text-center">
         <thead>
           <tr>
@@ -19,12 +19,12 @@ const charge = () => {
           </tr>
         </thead>
         <FundtransferLimit />
-        <CreditCardLimit/>
-        <BkashLimit/>
-        <CashByCodeLimit/>
-        <QrLimit/>
-        <DthLimit/>
-        <MobileRecharge/>
+        <CreditCardLimit />
+        <BkashLimit />
+        <CashByCodeLimit />
+        <QrLimit />
+        <DthLimit />
+        <MobileRecharge />
       </table>
     </div>
   );

@@ -20,7 +20,7 @@ const Navbar = () => {
       id="home"
     >
       <nav
-        className={`"  ${styles.boxWidth}  mx-auto flex   justify-between items-center"  `}
+        className={`"  ${styles.boxWidth}  mx-auto flex px-3 lg:px-0 xl:px-0 justify-between items-center"  `}
       >
         <Link href="/">
           <Image

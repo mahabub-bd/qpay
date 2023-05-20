@@ -38,8 +38,16 @@ import QrLimit from "./fees/QrLimit";
 
 import MobileRecharge from "./fees/MobileRecharge";
 
+import FeeCalculator from "./chargecalculator/FeeCalculate";
+
+import FundTransferCalculate from "./chargecalculator/FTalculate";
+
+
+
 export {
   AtmBooth,
+  FeeCalculator,
+  FundTransferCalculate,
   Banks,
   Bread,
   BoothComponent,
@@ -58,5 +66,7 @@ export {
   CashByCodeLimit,
   DthLimit,
   QrLimit,
-  MobileRecharge
+  MobileRecharge,
+ 
+
 };
