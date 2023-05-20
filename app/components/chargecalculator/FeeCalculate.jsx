@@ -1,4 +1,5 @@
 'use client'
+import CCCalculate from "./CCCalculate";
 import  FTCalculate  from "./FTCalculate";
 
 import React, { useState } from "react";
@@ -17,7 +18,7 @@ const options = [
 
 const componentMap = {
   fundtransfer: <FTCalculate />,
-  creditcardbill: <h5>Credit Card Bill Payment</h5>,
+  creditcardbill: <CCCalculate/>,
   cashbycode: <h5>Cash By Code</h5>,
   bkashcashin: <h5>Bkash Cash In</h5>,
   mobilerecharge: <h5>Mobile Recharge</h5>,

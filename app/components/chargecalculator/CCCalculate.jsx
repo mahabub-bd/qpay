@@ -1,17 +1,18 @@
 "use client";
 
-import useFT from "@/app/hooks/useFT";
+import useCarousel from "@/app/hooks/useCarousel";
+import useCreditcard from "@/app/hooks/useCreditcard";
 
-const FTCalculate = () => {
-  const { amount, setAmount, fee, calculateFee } = useFT();
+const CCCalculate = () => {
+  const { amount, setAmount, fee, calculateFee } = useCreditcard();
 
   return (
     <div>
       <form onSubmit={calculateFee}>
         <input
           className="shadow appearance-none border-qpaytwo rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-          min="500"
-          max="100000"
+          min="0"
+          max="200000"
           type="number"
           required
           placeholder="Enter amount"
@@ -30,4 +31,4 @@ const FTCalculate = () => {
   );
 };
 
-export default FTCalculate;
+export default CCCalculate;
