@@ -1,5 +1,5 @@
 "use client";
-import useCreditcard from "@/app/hooks/useCashByCode";
+import useCashByCode from "@/app/hooks/useCashByCode";
 
 const CashByCode = () => {
   const { amountValue, setAmount, fee, calculateFee, message } =
@@ -10,8 +10,8 @@ const CashByCode = () => {
       <form onSubmit={calculateFee}>
         <input
           className="shadow appearance-none border-qpaytwo rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-          min="0"
-          max="200000"
+          min="5"
+          max="20000"
           type="number"
           required
           placeholder="Enter amount"
@@ -20,15 +20,15 @@ const CashByCode = () => {
         />
         <button
           type="submit"
-          className="bg-qpayone rounded-sm text-white my-4 px-3 py-1"
+          className="bg-qpayone my-3 px-3 text-white"
         >
           Calculate
         </button>
       </form>
-      <p>Fee : {fee}</p>
+     
       {message && (
         <p>
-          Charge for {amountValue} BDT Credit Card Bill {fee} BDT
+          Charge for {amountValue} BDT Cash By Code is {fee} BDT
         </p>
       )}
     </div>

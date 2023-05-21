@@ -20,12 +20,12 @@ const FTCalculate = () => {
         />
         <button
           type="submit"
-          className="bg-qpayone rounded-sm text-white my-4 px-3 py-1"
+          className="bg-qpayone my-3 px-3 text-white"
         >
           Calculate
         </button>
       </form>
-      <p>Fee : {fee}</p>
+    
       {message && (
         <p>
           Charge for {amountValue} BDT Fund Transfer is {fee} BDT

@@ -20,15 +20,15 @@ const CCCalculate = () => {
         />
         <button
           type="submit"
-          className="bg-qpayone rounded-sm text-white my-4 px-3 py-1"
+          className="bg-qpayone m-6 px-3"
         >
           Calculate
         </button>
       </form>
-      <p>Fee : {fee}</p>
+     
       {message && (
         <p>
-          Charge for {amountValue} BDT Credit Card Bill {fee} BDT
+          Charge for {amountValue} BDT Credit Card Bill is {fee} BDT
         </p>
       )}
     </div>
