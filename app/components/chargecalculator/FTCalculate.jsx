@@ -3,7 +3,7 @@
 import useFT from "@/app/hooks/useFT";
 
 const FTCalculate = () => {
-  const { amount, setAmount, fee, calculateFee, message } = useFT();
+  const { amountValue, setAmount, fee, calculateFee, message } = useFT();
 
   return (
     <div>
@@ -15,7 +15,7 @@ const FTCalculate = () => {
           type="number"
           required
           placeholder="Enter amount"
-          value={amount}
+          value={amountValue}
           onChange={(e) => setAmount(e.target.value)}
         />
         <button
@@ -28,7 +28,7 @@ const FTCalculate = () => {
       <p>Fee : {fee}</p>
       {message && (
         <p>
-          Charge for {amount} BDT Fund Transfer is {fee} BDT
+          Charge for {amountValue} BDT Fund Transfer is {fee} BDT
         </p>
       )}
     </div>

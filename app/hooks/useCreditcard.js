@@ -2,11 +2,12 @@ import { useState } from "react";
 
 // Custom hook to calculate fee based on amount
 function useCreditcard() {
-  const [amount, setAmount] = useState(0);
+  const [amountValue, setAmount] = useState(0);
   const [fee, setFee] = useState(0);
   const [message,setmessage]=useState(false);
 
   const calculateFee = (event) => {
+    const amount=parseFloat(amountValue)
     event.preventDefault();
     setmessage(true)
 

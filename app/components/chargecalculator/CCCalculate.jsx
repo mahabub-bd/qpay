@@ -2,7 +2,8 @@
 import useCreditcard from "@/app/hooks/useCreditcard";
 
 const CCCalculate = () => {
-  const { amount, setAmount, fee, calculateFee, message } = useCreditcard();
+  const { amountValue, setAmount, fee, calculateFee, message } =
+    useCreditcard();
 
   return (
     <div>
@@ -27,7 +28,7 @@ const CCCalculate = () => {
       <p>Fee : {fee}</p>
       {message && (
         <p>
-          Charge for {amount} BDT Credit Card Bill {fee} BDT
+          Charge for {amountValue} BDT Credit Card Bill {fee} BDT
         </p>
       )}
     </div>
