@@ -1,10 +1,8 @@
 "use client";
-
-
 import useCreditcard from "@/app/hooks/useCreditcard";
 
 const CCCalculate = () => {
-  const { amount, setAmount, fee, calculateFee,message } = useCreditcard();
+  const { amount, setAmount, fee, calculateFee, message } = useCreditcard();
 
   return (
     <div>

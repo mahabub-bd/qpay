@@ -3,7 +3,7 @@
 import useFT from "@/app/hooks/useFT";
 
 const FTCalculate = () => {
-  const { amount, setAmount, fee, calculateFee,message } = useFT();
+  const { amount, setAmount, fee, calculateFee, message } = useFT();
 
   return (
     <div>
