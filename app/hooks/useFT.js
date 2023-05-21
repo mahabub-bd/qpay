@@ -9,7 +9,7 @@ function useFT() {
   const calculateFee = (event) => {
     const amount=parseFloat(amountValue)
     event.preventDefault();
-    setmessage(false)
+    setmessage(true);
 
     if (amount >= 500 && amount <= 5000) {
       setFee(10);
