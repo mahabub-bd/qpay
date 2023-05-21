@@ -1,7 +1,7 @@
 const CashByCodeLimit = () => {
   return (
     <tbody>
-      <tr>
+      <tr >
         <td rowSpan="5" className="border px-3">
           Cash By Code
         </td>

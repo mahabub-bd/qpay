@@ -20,7 +20,7 @@ const FTCalculate = () => {
         />
         <button
           type="submit"
-          className="bg-qpayone my-3 px-3 text-white"
+          className="bg-qpayone my-3 px-3 text-white rounded"
         >
           Calculate
         </button>

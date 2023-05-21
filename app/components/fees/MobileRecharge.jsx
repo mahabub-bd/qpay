@@ -3,7 +3,7 @@ import React from "react";
 const MobileRecharge = () => {
   return (
     <tbody>
-      <tr>
+      <tr className="odd:bg-white even:bg-slate-50">
         <td rowSpan="5" className="border px-3">
          Mobile Recharge
         </td>

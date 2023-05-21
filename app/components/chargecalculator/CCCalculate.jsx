@@ -20,7 +20,7 @@ const CCCalculate = () => {
         />
         <button
           type="submit"
-          className="bg-qpayone m-6 px-3"
+          className="bg-qpayone my-3 px-3 text-white rounded"
         >
           Calculate
         </button>
