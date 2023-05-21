@@ -20,7 +20,7 @@ const CashByCode = () => {
         />
         <button
           type="submit"
-          className="bg-qpayone my-3 px-3 text-white rounded "
+          className="bg-qpayone my-4 px-3 py-1 text-white rounded "
         >
           Calculate
         </button>

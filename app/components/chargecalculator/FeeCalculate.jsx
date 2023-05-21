@@ -36,7 +36,7 @@ function FeeCalculator() {
   };
 
   return (
-    <div className="bg-white shadow-lg rounded  px-6 py-6 m-4 sm:min-w-[70vw] lg:min-w-[60vw] ">
+    <div className="bg-white shadow-lg rounded  px-6 py-6 m-4 sm:min-w-[70vw] lg:min-w-[60vw] h-min-[50vh]  ">
       <form>
         <label>
           Choose Qpay Service to Calculate Your Charges:

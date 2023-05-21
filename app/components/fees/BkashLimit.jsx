@@ -4,19 +4,19 @@ const BkashLimit = () => {
   return (
     <tbody>
       <tr className="odd:bg-white even:bg-slate-50">
-        <td rowSpan="5" className="border px-3">
+        <td rowSpan="5" className="border">
          bKash Cash In
         </td>
-        <td className="border px-3">0-20000</td>
-        <td className="border px-3">20</td>
-        <td rowSpan="2" className="border px-3">
-          0-200000
+        <td className="border ">N/A</td>
+        <td className="border ">N/A</td>
+        <td rowSpan="2" className="border">
+         50-50000
         </td>
-        <td rowSpan="2" className="border px-3">
-          2/400000
+        <td rowSpan="2" className="border">
+          5/50000
         </td>
-        <td rowSpan="2" className="border px-3">
-          5/1000000
+        <td rowSpan="2" className="border ">
+         25/300000
         </td>
       </tr>
     
