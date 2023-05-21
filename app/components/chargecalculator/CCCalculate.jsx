@@ -15,7 +15,7 @@ const CCCalculate = () => {
           type="number"
           required
           placeholder="Enter amount"
-          value={amount}
+          value={amountValue}
           onChange={(e) => setAmount(e.target.value)}
         />
         <button

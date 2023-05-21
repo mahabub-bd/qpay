@@ -20,7 +20,7 @@ function useCreditcard() {
     }
   };
 
-  return { amount, setAmount, fee, calculateFee,message};
+  return { amountValue, setAmount, fee, calculateFee, message};
 }
 
 export default useCreditcard;

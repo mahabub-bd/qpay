@@ -26,7 +26,7 @@ function useFT() {
     }
   };
 
-  return { amount, setAmount, fee, calculateFee, message };
+  return { amountValue, setAmount, fee, calculateFee, message };
 }
 
 export default useFT;
