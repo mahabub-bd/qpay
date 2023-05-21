@@ -4,6 +4,7 @@ import  FTCalculate  from "./FTCalculate";
 import  CashByCode  from "./CashByCode";
 
 import React, { useState } from "react";
+import Utility from "./Utility";
 
 
 const options = [
@@ -19,12 +20,12 @@ const options = [
 
 const componentMap = {
   fundtransfer: <FTCalculate />,
-  creditcardbill: <CCCalculate/>,
-  cashbycode: <CashByCode/>,
+  creditcardbill: <CCCalculate />,
+  cashbycode: <CashByCode />,
   bkashcashin: <h5>Bkash Cash In</h5>,
   mobilerecharge: <h5>Mobile Recharge</h5>,
-  qrpayment: <h5>Bangla QR Payment</h5>,
-  utility: <h5>Utility Bill Payment</h5>,
+  qrpayment: <h5>QR Payment</h5>,
+  utility: <Utility />,
   dthbill: <h5>Akash DTH Bill</h5>,
 };
 

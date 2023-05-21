@@ -4,9 +4,9 @@ const MobileRecharge = () => {
   return (
    <tbody>
        <tr className="odd:bg-white even:bg-slate-50">
-         <td rowSpan="5" className="border px-3">
+         <th rowSpan="5" className="border px-3">
           Mobile Recharge
-         </td>
+         </th>
          <td className="border ">Prepaid</td>
          <td className="border ">N/A</td>
          <td  className="border ">

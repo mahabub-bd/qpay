@@ -9,7 +9,7 @@ export const helpMenuLink = [
     id: 3,
     img: chargecalculator,
     title: "Fee Calculator",
-    link: "/chargecalculator",
+    link: "/feecalculator",
   },
 
   { id: 4, img: reg, title: "Registration Process", link: "/reg" },

@@ -1,17 +1,19 @@
 "use client";
-import useCreditcard from "@/app/hooks/useCreditcard";
 
-const CCCalculate = () => {
-  const { amountValue, setAmount, fee, calculateFee, message } =
-    useCreditcard();
+import useUtility from "@/app/hooks/useUtility";
+
+const Utility = () => {
+  const { amountValue, setAmount, fee, calculateFee, message } = useUtility();
+
+    
 
   return (
     <div>
       <form onSubmit={calculateFee}>
         <input
           className="shadow appearance-none border-qpaytwo rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-          min="0"
-          max="200000"
+          min="5"
+          max="20000"
           type="number"
           required
           placeholder="Enter amount"
@@ -20,19 +22,20 @@ const CCCalculate = () => {
         />
         <button
           type="submit"
-          className="bg-qpayone my-4 px-3 py-1 text-white rounded"
+          className="bg-qpayone my-4 px-3 py-1 text-white rounded "
         >
           Calculate
         </button>
       </form>
-     
+
       {message && (
-        <p>
-          Charge for {amountValue} BDT Credit Card Bill is {fee} BDT
+        <p className="text-center font-semibold text-qpayone">
+          Fee is BDT {fee} with including VAT
+      
         </p>
       )}
     </div>
   );
 };
 
-export default CCCalculate;
+export default Utility;

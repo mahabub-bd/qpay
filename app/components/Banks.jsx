@@ -9,7 +9,7 @@ const Banks = () => {
     <div className="bank-bg">
       <section
         id="banks"
-        className={` ${styles.paddingY} ${styles.boxWidth} mx-auto`}
+        className={` ${styles.boxWidth} mx-auto`}
       >
         <h2
           className={`text-center ${styles.heading2} ${styles.paddingY} qpay-gradient`}
@@ -20,7 +20,7 @@ const Banks = () => {
         <div className={` ${styles.flexStart}  flex-row flex-wrap`}>
           {banks.map((bank) => (
             <div key={bank.alt}>
-              <div className="p-1 w-[170px] h-[120px] shadow-xl hover:shadow-md  mx-1 rounded-md my-3 flex justify-center items-center flex-col">
+              <div className="p-1 w-[190px] h-[120px] shadow-xl hover:shadow-md  mx-2 rounded-md my-3 flex  justify-center items-center flex-col">
                 <Image
                   src={bank.img}
                   className=" object-contain"

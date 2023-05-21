@@ -22,7 +22,7 @@ import Footer from "./Footer";
 
 import VideoComponent from "./VideoComponent";
 
-import Bread from './Bread'
+import Bread from "./Bread";
 
 import FundtransferLimit from "./fees/FundtransferLimit";
 
@@ -38,16 +38,14 @@ import QrLimit from "./fees/QrLimit";
 
 import MobileRecharge from "./fees/MobileRecharge";
 
-import FTCalculate from "./chargecalculator/FTCalculate";
+import UtilityBill from "./fees/UtilityBill";
 
-import FeeCalculator from "./chargecalculator/FeeCalculate";
-
-
+import FeeCalculator from "./feecalculator/FeeCalculate";
 
 export {
   AtmBooth,
   FeeCalculator,
-  FTCalculate,
+  UtilityBill,
   Banks,
   Bread,
   BoothComponent,

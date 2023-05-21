@@ -3,7 +3,7 @@
 import useFT from "@/app/hooks/useFT";
 
 const FTCalculate = () => {
-  const { amountValue, setAmount, fee,vat, calculateFee, message } = useFT();
+  const { amountValue, setAmount, fee, vat, calculateFee, message } = useFT();
 
   return (
     <div>
@@ -25,10 +25,11 @@ const FTCalculate = () => {
           Calculate
         </button>
       </form>
-    
+
       {message && (
         <p className="text-center font-semibold text-qpayone">
-        Fee is BDT {fee}  and VAT is BDT {vat} & Total Amount is BDT {fee+vat}
+          Fee is BDT {fee} and VAT is BDT {vat} & Total Amount is BDT{" "}
+          {fee + vat}
         </p>
       )}
     </div>

@@ -8,7 +8,7 @@ function App() {
   const { currentIndex, prevSlide, nextSlide } = useCarousel();
 
   return (
-    <div className="m-auto relative group  max-w-[1280px] w-[100%]">
+    <div className="m-auto relative group   w-[100%]">
       <Image
         className="hidden md:block object-cover  w-full h-full"
         alt={`carouselimage${currentIndex}`}

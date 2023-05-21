@@ -14,7 +14,7 @@ export default function AtmList() {
   return (
     <div
       id="boothlist"
-      className={`${styles.boxWidth} ${styles.paddingX} mx-auto my-5 `}
+      className={`${styles.boxWidth} ${styles.paddingX} mx-auto my-5 atm-bg `}
     >
       <h2
         className={`text-center ${styles.heading2} ${styles.paddingY} qpay-gradient`}

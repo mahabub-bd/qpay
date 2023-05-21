@@ -2,9 +2,9 @@ const FundtransferLimit = () => {
   return (
    <tbody>
           <tr className="odd:bg-white even:bg-slate-50">
-            <td rowSpan="5" className="border ">
+            <th rowSpan="5" className="border ">
               Fund Transafer
-            </td>
+            </th>
             <td className="border ">500-5000</td>
             <td className="border ">10</td>
             <td rowSpan="5" className="border ">
