@@ -4,9 +4,11 @@ import { useState } from "react";
 function useCreditcard() {
   const [amount, setAmount] = useState(0);
   const [fee, setFee] = useState(0);
+  const [message,setmessage]=useState(false);
 
   const calculateFee = (event) => {
     event.preventDefault();
+    setmessage(true)
 
     if (amount >= 0 && amount <= 20000) {
       setFee(20);
@@ -17,7 +19,7 @@ function useCreditcard() {
     }
   };
 
-  return { amount, setAmount, fee, calculateFee};
+  return { amount, setAmount, fee, calculateFee,message};
 }
 
 export default useCreditcard;

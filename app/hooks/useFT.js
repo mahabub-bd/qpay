@@ -4,9 +4,11 @@ import { useState } from "react";
 function useFT() {
   const [amount, setAmount] = useState(0);
   const [fee, setFee] = useState(0);
+    const [message, setmessage] = useState(false);
 
   const calculateFee = (event) => {
     event.preventDefault();
+    setmessage(false)
 
     if (amount >= 500 && amount <= 5000) {
       setFee(10);
@@ -23,7 +25,7 @@ function useFT() {
     }
   };
 
-  return { amount, setAmount, fee, calculateFee };
+  return { amount, setAmount, fee, calculateFee, message };
 }
 
 export default useFT;
