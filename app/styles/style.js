@@ -1,10 +1,10 @@
 const styles = {
-  boxWidth: "xl:max-w-[1280px] w-full mx-auto",
+  boxWidth: "xl:max-w-[1280px] lg:max-w-[1280px] w-full mx-auto",
 
   heading2:
     "font-poppins font-semibold xs:text-[36px] text-[30px] text-qpaygradient xs:leading-[76.8px] leading-[46.8px] w-full",
   heading3:
-    " font-semibold xs:text-[26 px] text-[39px] text-center text-qpaytwo xs:leading-[56.8px] leading-[47px] w-full font-sans",
+    " font-semibold xs:text-[26 px] text-[28px] text-center text-qpaytwo xs:leading-[56.8px] leading-[47px] w-full font-sans",
   paragraph:
     "font-poppins text-justify text-gray-800 font-normal text-secondry text-[18px] leading-[30.8px]",
 
