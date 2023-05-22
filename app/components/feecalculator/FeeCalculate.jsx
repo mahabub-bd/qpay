@@ -1,11 +1,13 @@
-'use client'
-import CCCalculate from "./CCCalculate";
-import  FTCalculate  from "./FTCalculate";
-import  CashByCode  from "./CashByCode";
-
+"use client";
 import React, { useState } from "react";
+import CCCalculate from "./CCCalculate";
+import FTCalculate from "./FTCalculate";
+import CashByCode from "./CashByCode";
+import MobileRecharge from "./MobileRecharge";
+import Bkash from "./Bkash";
 import Utility from "./Utility";
-
+import DthBill from "./DthBill";
+import QrPayment from "./QrPayment";
 
 const options = [
   { value: "fundtransfer", label: "Fund Transfer" },
@@ -22,11 +24,11 @@ const componentMap = {
   fundtransfer: <FTCalculate />,
   creditcardbill: <CCCalculate />,
   cashbycode: <CashByCode />,
-  bkashcashin: <h5>Bkash Cash In</h5>,
-  mobilerecharge: <h5>Mobile Recharge</h5>,
-  qrpayment: <h5>QR Payment</h5>,
+  bkashcashin: <Bkash />,
+  mobilerecharge: <MobileRecharge />,
+  qrpayment: <QrPayment/>,
   utility: <Utility />,
-  dthbill: <h5>Akash DTH Bill</h5>,
+  dthbill: <DthBill />,
 };
 
 function FeeCalculator() {
