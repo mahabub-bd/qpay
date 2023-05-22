@@ -2,15 +2,10 @@ import Image from "next/image";
 import { banks } from "../constants";
 import styles from "../styles/style";
 
-
-
 const Banks = () => {
   return (
     <div className="bank-bg">
-      <section
-        id="banks"
-        className={` ${styles.boxWidth} mx-auto`}
-      >
+      <section id="banks" className={` ${styles.boxWidth} mx-auto`}>
         <h2
           className={`text-center ${styles.heading2} ${styles.paddingY} qpay-gradient`}
         >
