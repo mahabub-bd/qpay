@@ -1,17 +1,18 @@
-'use client'
+"use client";
 
-import { close, menu } from '@/public';
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react'
+import { close, menu } from "@/public";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 import { useState } from "react";
 
-// import { MobileHelpMenu } from "../components";
-import { navLinks } from '../constants';
+import { MobileSubMenu } from "../components";
+import styles from "../styles/style";
+import { helpMenuLink, featuresList } from "../constants";
 
 const TogglerMenu = () => {
-const [toggle, setToggle] = useState(false); 
-const [active, setActive] = useState("Home");   
+  const [toggle, setToggle] = useState(false);
+
   return (
     <div className="sm:hidden flex flex-1 justify-end items-center relative">
       <Image
@@ -24,27 +25,78 @@ const [active, setActive] = useState("Home");
       <div
         className={`${
           toggle ? "flex" : "hidden"
-        } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[180px] rounded-xl sidebar z-50 `}
+        } p-6 bg-black-gradient absolute top-20 right-0 mx-6 my-2 min-w-[260px] rounded-xl sidebar z-50 `}
       >
-        <ul className=" list-none flex justify-end flex-col flex-center items-center flex-1">
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`font-poppins font-normal cursor-pointer text-[16px] ${
-                active === nav.title ? "text-qpayone" : "text-dimWhite"
-              }  [&:not(:last-child)]:mb-4`}
-              onClick={() => setActive(nav.title)}
-            >
-              <Link href={`/#${nav.id}`} scroll={false}>
-                {nav.title}
-                {/* <MobileHelpMenu /> */}
-              </Link>
-            </li>
-          ))}
+        <ul className=" list-none flex  flex-col  flex-1">
+          <Link className={`${styles.mobileMenu}`} href={`/`} scroll={false}>
+            Home
+          </Link>
+
+          <Link
+            className={`${styles.mobileMenu} relative`}
+            href={`/`}
+            scroll={false}
+          >
+            Features
+            <MobileSubMenu
+              menuLink={featuresList}
+              menu="features"
+             
+            />
+          </Link>
+
+          <Link
+            className={`${styles.mobileMenu}`}
+            href={`/#banks`}
+            scroll={false}
+          >
+            Bank & FI
+          </Link>
+
+          <Link
+            className={`${styles.mobileMenu}`}
+            href={`/#boothlist`}
+            scroll={false}
+          >
+            ATM Booth
+          </Link>
+
+          <Link className={`${styles.mobileMenu} relative`} href={`/`}>
+            Help
+            <MobileSubMenu
+              menuLink={helpMenuLink}
+              menu="help"
+              
+            />
+          </Link>
+
+          <Link
+            className={`${styles.mobileMenu}`}
+            href={`/#download`}
+            scroll={false}
+          >
+            Qpay App
+          </Link>
+
+          <Link
+            className={`${styles.mobileMenu}`}
+            href={`/#about`}
+            scroll={false}
+          >
+            About
+          </Link>
+
+          <Link
+            className={`${styles.mobileMenu}`}
+            href={`/#contact`}
+            scroll={false}
+          >
+            Contact
+          </Link>
         </ul>
       </div>
     </div>
   );
-}
+};
 
 export default TogglerMenu;

@@ -132,12 +132,18 @@ import limit from "./images/limit & charges.webp";
 
 import reg from "./images/registration process 1.webp";
 
-import security from './images/security tips.webp';
+import security from "./images/security tips.webp";
 
-import contact from './images/contact us.webp'
+import contact from "./images/contact us.webp";
+
+import uparrow from "./images/up-arrow.svg";
+
+import downarrow from "./images/down-arrow.svg";
 
 export {
   chargecalculator,
+  uparrow,
+  downarrow,
   contact,
   security,
   limit,

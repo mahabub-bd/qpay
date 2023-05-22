@@ -42,7 +42,7 @@ import UtilityBill from "./fees/UtilityBill";
 
 import FeeCalculator from "./feecalculator/FeeCalculate";
 
-import MobileHelpMenu from "./MobileHelpMenu";
+import MobileSubMenu from "./MobileSubMenu";
 
 import TogglerMenu from "./TogglerMenu";
 
@@ -51,7 +51,7 @@ export {
   TogglerMenu,
   FeeCalculator,
   UtilityBill,
-  MobileHelpMenu,
+  MobileSubMenu,
   Banks,
   Bread,
   BoothComponent,

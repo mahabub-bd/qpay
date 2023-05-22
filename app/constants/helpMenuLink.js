@@ -1,7 +1,7 @@
 import { security,chargecalculator,limit,faq,reg,contact } from "@/public";
 
 export const helpMenuLink = [
-  { id: 1, img: faq, title: "Frequently Asked Questions", link: "/faq" },
+  { id: 1, img: faq, title: "FAQ", link: "/faq" },
 
   { id: 2, img: limit, title: "Fee and Limits", link: "/limit" },
 
@@ -12,7 +12,7 @@ export const helpMenuLink = [
     link: "/feecalculator",
   },
 
-  { id: 4, img: reg, title: "Registration Process", link: "/reg" },
+  { id: 4, img: reg, title: "Registration ", link: "/reg" },
   {
     id: 5,
     img: security,
