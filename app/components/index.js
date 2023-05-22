@@ -42,10 +42,16 @@ import UtilityBill from "./fees/UtilityBill";
 
 import FeeCalculator from "./feecalculator/FeeCalculate";
 
+import MobileHelpMenu from "./MobileHelpMenu";
+
+import TogglerMenu from "./TogglerMenu";
+
 export {
   AtmBooth,
+  TogglerMenu,
   FeeCalculator,
   UtilityBill,
+  MobileHelpMenu,
   Banks,
   Bread,
   BoothComponent,
