@@ -4,8 +4,7 @@
 
 * {
   scroll-behavior: smooth;
-  scrollbar-width: thin;
-  scrollbar-color: #f99f1f;
+ 
 }
 .bg-black-gradient {
   background: linear-gradient(
