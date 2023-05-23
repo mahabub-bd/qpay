@@ -19,8 +19,9 @@ const Navbar = () => {
       className={`relative mx-auto py-3 bg-white ${scrolled && "scrolled"}`}
       id="home"
     >
+    
       <nav
-        className={`"  ${styles.boxWidth}  mx-auto flex px-4 lg:px-0 xl:px-0 justify-between items-center"  `}
+        className={`${styles.boxWidth}  mx-auto flex px-4 py-2 lg:px-0 xl:px-0 justify-between items-center`}
       >
         <Link href="/">
           <Image
@@ -59,12 +60,10 @@ const Navbar = () => {
               />
             </li>
           ))}
-        
         </ul>
 
         <TogglerMenu />
       </nav>
-     
     </div>
   );
 };

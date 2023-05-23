@@ -1,6 +1,10 @@
 import { Bread } from "../components";
 import styles from "@/app/styles/style";
 
+export const metadata = {
+  title: "Contact Us | Qpay",
+  description: "App For Qcash Member Banks",
+};
 const contact = () => {
   return (
     <div>
