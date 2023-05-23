@@ -10,7 +10,7 @@ const CashByCode = () => {
       <form onSubmit={calculateFee}>
         <input
           className="shadow appearance-none border-qpaytwo rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-          min="5"
+          min="500"
           max="20000"
           type="number"
           required

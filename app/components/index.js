@@ -12,7 +12,7 @@ import Navbar from "./Navbar";
 
 import MegaMenu from "./MegaMenu";
 
-
+import Modal from "./Modal";
 
 import Download from "./Download";
 
@@ -48,6 +48,7 @@ import TogglerMenu from "./TogglerMenu";
 
 export {
   AtmBooth,
+  Modal,
   TogglerMenu,
   FeeCalculator,
   UtilityBill,

@@ -15,8 +15,6 @@ const About = () => {
             className="flex flex-col flex-1 xl:px-0 sm:px-16 px-6"
             data-aos="fade-right"
           >
-            <h3 className={styles.heading3}>Qpay FinTech Application</h3>
-
             <p className={`${styles.paragraph} mt-5  `}>
               Q-Cash has introduced QPay, a new financial technology application
               that offers both basic and advanced FinTech and electronic payment

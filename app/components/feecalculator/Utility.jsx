@@ -5,15 +5,13 @@ import useUtility from "@/app/hooks/useUtility";
 const Utility = () => {
   const { amountValue, setAmount, fee, calculateFee, message } = useUtility();
 
-    
-
   return (
     <div>
       <form onSubmit={calculateFee}>
         <input
           className="shadow appearance-none border-qpaytwo rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-          min="5"
-          max="20000"
+          min="1"
+          max="300000"
           type="number"
           required
           placeholder="Enter amount"
@@ -30,8 +28,7 @@ const Utility = () => {
 
       {message && (
         <p className="text-center font-semibold text-qpayone">
-          Fee is BDT {fee} with including VAT
-      
+          Fee is BDT {fee} including VAT
         </p>
       )}
     </div>

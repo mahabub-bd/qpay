@@ -1,8 +1,5 @@
 import { carousel1,carousel2,carousel3,carousel4,carouselmobile1,carouselmobile2,carouselmobile3,carouselmobile4 } from "@/public";
 
-
-
-
 export const slides = [
   {
     id: 1,

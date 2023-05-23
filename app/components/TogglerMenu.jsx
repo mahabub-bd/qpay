@@ -28,21 +28,21 @@ const TogglerMenu = () => {
         } p-6 bg-black-gradient absolute top-20 right-0 mx-6 my-2 min-w-[200px] rounded-xl sidebar z-50 `}
       >
         <ul className=" list-none flex  flex-col  flex-1">
-          <Link className={`${styles.mobileMenu}`} href={`/`} scroll={false}>
+          <Link
+            className={`${styles.mobileMenu} `}
+            href={`/`}
+            scroll={false}
+          >
             Home
           </Link>
 
           <Link
-            className={`${styles.mobileMenu} relative`}
+            className={`${styles.mobileMenu} relative `}
             href={`/`}
             scroll={false}
           >
             Features
-            <MobileSubMenu
-              menuLink={featuresList}
-              menu="features"
-             
-            />
+            <MobileSubMenu menuLink={featuresList} menu="features" />
           </Link>
 
           <Link
@@ -63,11 +63,7 @@ const TogglerMenu = () => {
 
           <Link className={`${styles.mobileMenu} relative`} href={`/`}>
             Help
-            <MobileSubMenu
-              menuLink={helpMenuLink}
-              menu="help"
-              
-            />
+            <MobileSubMenu menuLink={helpMenuLink} menu="help" />
           </Link>
 
           <Link

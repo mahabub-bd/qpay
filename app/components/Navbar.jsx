@@ -4,13 +4,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { logo } from "../../public";
-import { MegaMenu, TogglerMenu } from "../components";
+import { MegaMenu, TogglerMenu, Modal } from "../components";
 import { featuresList, navLinks, helpMenuLink } from "../constants";
 import useScroll from "../hooks/useScroll";
 import styles from "../styles/style";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
+  // const [isOpen, setIsOpen] = useState(false);
   const { scrolled } = useScroll();
 
   return (
@@ -45,6 +46,7 @@ const Navbar = () => {
               onClick={() => setActive(nav.title)}
             >
               <Link href={`/#${nav.id}`}>{nav.title}</Link>
+
               <MegaMenu
                 menuLink={featuresList}
                 menu="features"
@@ -57,6 +59,14 @@ const Navbar = () => {
               />
             </li>
           ))}
+          <Link
+            // onClick={() => setIsOpen(true)}
+            className="font-poppins font-semibold cursor-pointer text-[16px]"
+            href={`/#contact`}
+          >
+            Contact
+          </Link>
+          {/* {isOpen && <Modal setIsOpen={setIsOpen} />} */}
         </ul>
 
         <TogglerMenu />
