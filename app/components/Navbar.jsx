@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { logo } from "../../public";
-import { FeaturesMegaMenu, HelpMegaMenu, TogglerMenu } from "../components";
-import { navLinks } from "../constants";
+import { MegaMenu, TogglerMenu } from "../components";
+import { featuresList, navLinks, helpMenuLink } from "../constants";
 import useScroll from "../hooks/useScroll";
 import styles from "../styles/style";
 
@@ -45,8 +45,16 @@ const Navbar = () => {
               onClick={() => setActive(nav.title)}
             >
               <Link href={`/#${nav.id}`}>{nav.title}</Link>
-              <FeaturesMegaMenu />
-              <HelpMegaMenu />
+              <MegaMenu
+                menuLink={featuresList}
+                menu="features"
+                menuName="features-mega-menu"
+              />
+              <MegaMenu
+                menuLink={helpMenuLink}
+                menu="help"
+                menuName="help-mega-menu"
+              />
             </li>
           ))}
         </ul>

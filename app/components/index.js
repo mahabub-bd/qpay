@@ -10,9 +10,9 @@ import Features from "./Features";
 
 import Navbar from "./Navbar";
 
-import FeaturesMegaMenu from "./FeaturesMegaMenu";
+import MegaMenu from "./MegaMenu";
 
-import HelpMegaMenu from "./HelpMegaMenu";
+
 
 import Download from "./Download";
 
@@ -61,8 +61,8 @@ export {
   Download,
   CarouselImage,
   Footer,
-  FeaturesMegaMenu,
-  HelpMegaMenu,
+  MegaMenu,
+
   VideoComponent,
   FundtransferLimit,
   CreditCardLimit,

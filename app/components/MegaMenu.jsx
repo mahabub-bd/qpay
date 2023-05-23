@@ -1,18 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
-import { featuresList } from "../constants";
 
-const FeaturesMegaMenu = () => {
+
+const FeaturesMegaMenu = ({ menuLink, menu, menuName }) => {
   return (
     <>
       <div
-        className={` p-6 features-mega-menu mb-4 sm:mb-0  shadow-sm shadow-qpaytwo bg-white rounded-xl`}
+        className={` p-6  ${menuName} mb-4 sm:mb-0  shadow-sm shadow-qpaytwo bg-white rounded-xl`}
       >
-        <div className="container m-auto w-full flex flex-wrap justify-between ">
-          {featuresList.map((item) => (
+        <div className="container m-auto w-full flex flex-wrap justify-between">
+          {menuLink.map((item) => (
             <div key={item.id} className="flex p-1 mt-6">
               <Link
-                href={`/features${item.link}`}
+                href={`/${menu}${item.link}`}
                 className="flex justify-center items-center flex-col hover:scale-110 text-black hover:text-qpayone"
               >
                 <Image
