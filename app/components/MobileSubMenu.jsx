@@ -14,7 +14,7 @@ const MobileSubMenu = ({ menuLink ,menu}) => {
       <Image
         src={!isOpen ? downarrow : uparrow}
         alt="menu"
-        className={`w-[12px] top-[8px] left-[85px] cursor-pointer object-contain absolute`}
+        className={`w-[12px] top-[7px] left-[105px] cursor-pointer object-contain absolute`}
         onClick={() => setIsOpen((prev) => !prev)}
       />
 

@@ -34,7 +34,7 @@ const About = () => {
             </p>
           </div>
           <div
-            className={`flex items-center justify-end md:justify-center `}
+            className={`flex flex-1 items-center xl:justify-end md:justify-center `}
             data-aos="fade-left"
           >
             <Image

@@ -11,7 +11,7 @@ import styles from "../styles/style";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
-  // const [isOpen, setIsOpen] = useState(false);
+ 
   const { scrolled } = useScroll();
 
   return (
@@ -45,7 +45,7 @@ const Navbar = () => {
               } [&:not(:last-child)]:mr-10`}
               onClick={() => setActive(nav.title)}
             >
-              <Link href={`/#${nav.id}`}>{nav.title}</Link>
+              <Link href={`/${nav.id}`}>{nav.title}</Link>
 
               <MegaMenu
                 menuLink={featuresList}
@@ -59,18 +59,12 @@ const Navbar = () => {
               />
             </li>
           ))}
-          <Link
-            // onClick={() => setIsOpen(true)}
-            className="font-poppins font-semibold cursor-pointer text-[16px]"
-            href={`/#contact`}
-          >
-            Contact
-          </Link>
-          {/* {isOpen && <Modal setIsOpen={setIsOpen} />} */}
+        
         </ul>
 
         <TogglerMenu />
       </nav>
+     
     </div>
   );
 };

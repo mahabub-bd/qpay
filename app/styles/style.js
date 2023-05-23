@@ -18,7 +18,7 @@ const styles = {
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
   mobileMenu:
-    "font-poppins font-normal text-white hover:text-dimWhite cursor-pointer text-[16px] mb-3 font-semibold border-b-[1px] border-t-[#3F3E45] tracking-wide border-dotted",
+    "font-poppins font-normal text-white hover:text-dimWhite cursor-pointer text-[16px] mb-4 font-semibold border-b-[1px] border-t-[#3F3E45] tracking-wide border-dotted",
 };
 
 export const layout = {

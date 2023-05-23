@@ -24,34 +24,23 @@ import VideoComponent from "./VideoComponent";
 
 import Bread from "./Bread";
 
-import FundtransferLimit from "./fees/FundtransferLimit";
-
-import CreditCardLimit from "./fees/CreditCardLimit";
-
-import BkashLimit from "./fees/BkashLimit";
-
-import CashByCodeLimit from "./fees/CashByCodeLimit";
-
-import DthLimit from "./fees/DthLimit";
-
-import QrLimit from "./fees/QrLimit";
-
-import MobileRecharge from "./fees/MobileRecharge";
-
-import UtilityBill from "./fees/UtilityBill";
-
 import FeeCalculator from "./feecalculator/FeeCalculate";
 
 import MobileSubMenu from "./MobileSubMenu";
 
 import TogglerMenu from "./TogglerMenu";
 
+import Fees from "./Fees";
+
+import Limit from "./Limit";
+
 export {
   AtmBooth,
+  Fees,
+  Limit,
   Modal,
   TogglerMenu,
   FeeCalculator,
-  UtilityBill,
   MobileSubMenu,
   Banks,
   Bread,
@@ -63,13 +52,5 @@ export {
   CarouselImage,
   Footer,
   MegaMenu,
-
   VideoComponent,
-  FundtransferLimit,
-  CreditCardLimit,
-  BkashLimit,
-  CashByCodeLimit,
-  DthLimit,
-  QrLimit,
-  MobileRecharge,
 };
