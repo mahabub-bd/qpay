@@ -25,10 +25,14 @@ const Footer = () => {
             </Link>
 
             <p className={`${styles.paragraph} mt-4 max-w-[310px] text-white`}>
-              Help Line Number : 09666727279
+              <a className="font-semibold text-[24px]" href="tel:0966727279">
+                0966727279
+              </a>
             </p>
             <p className={`${styles.paragraph} mt-4 max-w-[310px] text-white`}>
-              Email : support@qpaybd.com.bd
+              <a className="font-semibold text-[24px]" href="email:support@qpaybd.com.bd">
+                Email:support@qpaybd.com.bd
+              </a>
             </p>
           </div>
           <div className="flex-1 flex w-full flex-row justify-between  flex-wrap md:mt-0 mt-10">
@@ -58,7 +62,7 @@ const Footer = () => {
           </div>
         </div>
         <div
-          className={`${styles.boxWidth}  flex items-center justify-between vxs:flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse   pt-6 px-6 border-t-[1px] border-t-[#3F3E45]`}
+          className={`${styles.boxWidth}  flex items-center justify-between vxs:flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse   pt-6 border-t-[1px] border-t-[#3F3E45]`}
         >
           <p className="font-poppins font-light text-[14px] leading-[27px] text-white vxs:mt-4 xl:mt-0">
             © 2023 Qpay Soulations Limited
