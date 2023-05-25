@@ -27,16 +27,16 @@ const Navbar = () => {
             <Image src={phone} alt="phone_icon" className="w-[16px]" />
             <span className="ml-2">
               <a
-                className="font-light  text-slate-900 text-[16px]"
+                className="font-light  text-slate-900 text-[18px]"
                 href="tel:0966727279"
               >
-                0966727279
+                09666727279
               </a>
             </span>
             <Image src={email} alt="phone_icon" className="w-[16px] ml-4" />
             <span className="ml-2">
               <a
-                className=" text-[16px] text-slate-900 font-light
+                className=" text-[18px] text-slate-900 font-light
 }"
                 href="mailto: support@qpaybd.com.bd"
               >
@@ -55,7 +55,7 @@ const Navbar = () => {
                 <Image
                   src={social.icon}
                   alt={social.id}
-                  className={`w-[16px] h-[16px] object-contain `}
+                  className={`w-[18px] h-[18px] object-contain `}
                 />
               </Link>
             ))}
@@ -63,11 +63,11 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`relative mx-auto py-3 bg-white ${scrolled && "scrolled"}`}
+        className={`relative mx-auto  bg-white ${scrolled && "sticky"}`}
         id="home"
       >
         <nav
-          className={`${styles.boxWidth}  mx-auto flex px-4 py-1 lg:px-0 xl:px-0 justify-between items-center`}
+          className={`${styles.boxWidth}  mx-auto flex px-3 py-3   sm:px-0 justify-between items-center`}
         >
           <Link href="/">
             <Image

@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
       <section
-        className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-[#262626] xl:px-0 sm:px-16 px-6 relative`}
+        className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-[#131A22] xl:px-0 sm:px-16 px-6 relative`}
       >
         <div
           className={`${styles.flexStart} ${styles.boxWidth}  md:flex-row flex-col mb-5 w-full`}
@@ -29,7 +29,7 @@ const Footer = () => {
             >
               <Image src={phone} alt="phone_icon" className="w-[18px] mr-3" />
               <a className=" text-[18px]" href="tel:0966727279">
-                0966727279
+                09666727279
               </a>
             </div>
             <div

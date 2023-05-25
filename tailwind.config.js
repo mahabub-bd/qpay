@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bgqpay: "##FFFFFF",
+        bgqpay: "#FFFFFF",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         qpayone: "#EC1B24",
         qpaytwo: "#F99E1B",

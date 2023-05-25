@@ -12,6 +12,7 @@ import styles from "../styles/style";
 
 export default function AtmList() {
   return (
+    
     <div
       id="boothlist"
       className={`${styles.boxWidth} ${styles.paddingX} mx-auto my-5 atm-bg `}
