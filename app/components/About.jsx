@@ -5,12 +5,12 @@ import styles from "../styles/style";
 const About = () => {
   return (
     <div className="qx-section-29 ">
-      <section id="about" className={`${styles.boxWidth} mx-auto `}>
+      <section id="about" className={`${styles.boxWidth} mx-auto`}>
         <h2 className={`text-center ${styles.heading2} qpay-gradient`}>
           About Qpay
         </h2>
 
-        <div className={`flex md:flex-row flex-col  `}>
+        <div className={`flex md:flex-row flex-col`}>
           <div
             className="flex flex-col flex-1 xl:px-0 sm:px-16 px-6"
             data-aos="fade-right"

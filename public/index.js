@@ -142,8 +142,11 @@ import downarrow from "./images/down-arrow.svg";
 
 import phone from './images/phone.svg'
 
+import email from './images/email.svg'
+
 export {
   chargecalculator,
+  email,
   phone,
   uparrow,
   downarrow,

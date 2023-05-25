@@ -3,8 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { logo, phone } from "../../public";
-import { MegaMenu, TogglerMenu,  } from "../components";
+import { logo, phone, email } from "../../public";
+import { MegaMenu, TogglerMenu } from "../components";
 import {
   featuresList,
   navLinks,
@@ -16,7 +16,7 @@ import styles from "../styles/style";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
- 
+
   const { scrolled } = useScroll();
 
   return (
@@ -25,9 +25,22 @@ const Navbar = () => {
         <div className={`${styles.boxWidth} flex justify-between py-2 `}>
           <div className="flex ">
             <Image src={phone} alt="phone_icon" className="w-[16px]" />
-            <span className="ml-4">
-              <a className="font-semibold text-[16px]" href="tel:0966727279">
+            <span className="ml-2">
+              <a
+                className="font-light  text-slate-900 text-[16px]"
+                href="tel:0966727279"
+              >
                 0966727279
+              </a>
+            </span>
+            <Image src={email} alt="phone_icon" className="w-[16px] ml-4" />
+            <span className="ml-2">
+              <a
+                className=" text-[16px] text-slate-900 font-light
+}"
+                href="mailto: support@qpaybd.com.bd"
+              >
+                support@qpaybd.com.bd
               </a>
             </span>
           </div>

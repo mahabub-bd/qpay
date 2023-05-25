@@ -1,5 +1,5 @@
 "use client";
-import { logodark } from "@/public";
+import { logodark, email, phone } from "@/public";
 import Image from "next/image";
 import Link from "next/link";
 import { footerLinks, socialMedia } from "../constants";
@@ -24,16 +24,22 @@ const Footer = () => {
               />
             </Link>
 
-            <p className={`${styles.paragraph} mt-4 max-w-[310px] text-white`}>
-              <a className="font-semibold text-[24px]" href="tel:0966727279">
+            <div
+              className={`${styles.paragraph} mt-4 max-w-[310px] text-white flex`}
+            >
+              <Image src={phone} alt="phone_icon" className="w-[18px] mr-3" />
+              <a className=" text-[18px]" href="tel:0966727279">
                 0966727279
               </a>
-            </p>
-            <p className={`${styles.paragraph} mt-4 max-w-[310px] text-white`}>
-              <a className="font-semibold text-[24px]" href="email:support@qpaybd.com.bd">
-                Email:support@qpaybd.com.bd
+            </div>
+            <div
+              className={`${styles.paragraph} mt-4 max-w-[310px] text-white flex`}
+            >
+              <Image src={email} alt="phone_icon" className="w-[18px] mr-3" />
+              <a className="text-[18px]" href="mailto:support@qpaybd.com.bd">
+                support@qpaybd.com.bd
               </a>
-            </p>
+            </div>
           </div>
           <div className="flex-1 flex w-full flex-row justify-between  flex-wrap md:mt-0 mt-10">
             {footerLinks.map((footerLink) => (
