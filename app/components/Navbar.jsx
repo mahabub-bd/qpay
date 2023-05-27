@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={` border-b-[1px] border-b-[#feeacd] sm:flex hidden bg-white`}>
+      <div className={` border-b-[1px] border-b-[#feeacd] sm:flex hidden`}>
         <div className={`${styles.boxWidth} flex justify-between py-2 `}>
           <div className="flex ">
             <Image src={phone} alt="phone_icon" className="w-[16px]" />
@@ -63,7 +63,9 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`relative mx-auto  bg-white ${scrolled && "sticky"}`}
+        className={`relative mx-auto  bg-white ${
+          scrolled && "sticky drop-shadow-lg"
+        }`}
         id="home"
       >
         <nav
