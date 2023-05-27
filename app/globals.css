@@ -251,7 +251,7 @@
 .qx-section-29 {
   background-color: rgba(255, 255, 255, 1);
   background-image: url("../public/images/Cloudy.svg");
-  background-size: cover;
+   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   transition: border 0.3s ease-in, box-shadow 0.3s ease-in, background 0.3s,
@@ -262,6 +262,7 @@
 .bank-bg {
   background-color: rgba(255, 255, 255, 1);
   background-image: url("../public/images/World\ Map.svg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   transition: border 0.3s ease-in, box-shadow 0.3s ease-in, background 0.3s,
@@ -294,7 +295,7 @@
   transition: border 0.3s ease-in, box-shadow 0.3s ease-in, background 0.3s,
     opacity 0.3s ease-in;
 
-    animation: AnimateBG 40s ease infinite;
+    /* animation: AnimateBG 40s ease infinite; */
 }
 @keyframes AnimateBG {
   0% {

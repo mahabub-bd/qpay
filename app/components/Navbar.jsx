@@ -36,8 +36,7 @@ const Navbar = () => {
             <Image src={email} alt="phone_icon" className="w-[16px] ml-4" />
             <span className="ml-2">
               <a
-                className=" text-[18px] text-slate-900 font-light
-}"
+                className=" text-[18px] text-slate-900 font-light"
                 href="mailto: support@qpaybd.com.bd"
               >
                 support@qpaybd.com.bd
