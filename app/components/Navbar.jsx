@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={` border-b-[1px] border-b-[#feeacd] sm:flex hidden`}>
+      <div className={` border-b-[1px] border-b-[#feeacd] sm:flex hidden bg-white`}>
         <div className={`${styles.boxWidth} flex justify-between py-2 `}>
           <div className="flex ">
             <Image src={phone} alt="phone_icon" className="w-[16px]" />

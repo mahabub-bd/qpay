@@ -101,42 +101,6 @@ const Fees = () => {
           <td className="border ">1% Or Max 30</td>
         </tr>
       </tbody>
-
-      {/* QR */}
-      <tbody>
-        <tr className="odd:bg-white even:bg-slate-50">
-          <th rowSpan="5" className="border">
-            QR Payment
-          </th>
-          <td className="border ">N/A</td>
-          <td className="border ">N/A</td>
-        </tr>
-      </tbody>
-
-      {/* DTH Limit */}
-      <tbody>
-        <tr className="odd:bg-white even:bg-slate-50">
-          <th rowSpan="5" className="border ">
-            Akash DTH Bill
-          </th>
-          <td className="border ">N/A</td>
-          <td className="border ">N/A</td>
-        </tr>
-      </tbody>
-      {/* Mobile Recharge */}
-      <tbody>
-        <tr className="odd:bg-white even:bg-slate-50">
-          <th rowSpan="5" className="border px-3">
-            Mobile Recharge
-          </th>
-          <td className="border ">Prepaid</td>
-          <td className="border ">N/A</td>
-        </tr>
-        <tr>
-          <td className="border ">Postpaid</td>
-          <td className="border ">N/A</td>
-        </tr>
-      </tbody>
     </table>
   );
 };

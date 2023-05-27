@@ -188,6 +188,6 @@ export const banks = [
   },
   {
     img: woori,
-    alt: "woori",
+    alt: "woori2",
   },
 ];
