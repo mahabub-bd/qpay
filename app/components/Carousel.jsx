@@ -4,7 +4,7 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { slides } from "../constants";
 import useCarousel from "../hooks/useCarousel";
 
-function App() {
+function Carousel() {
   const { currentIndex, prevSlide, nextSlide } = useCarousel();
 
   return (
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default Carousel;
